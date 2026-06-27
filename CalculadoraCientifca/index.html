@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">----aqui
+  <title>calculadora cientifica</title>
+  <link rel="stylesheet" href="calculadora.css"> //aqui debe ir el enlace del css
+ 
+</head>
+<body>
+<h1>calculadora</h1>
+ 
+<div class="calculadora">
+  <input type="text" id="pantalla" readonly>
+  <div class="botones">
+    <!-- Numeros -->
+<button onclick="agregar('7')">7</button>
+<button onclick="agregar('8')">8</button>
+<button onclick="agregar('9')">9</button>
+<button class="operador" onclick="operar('/')">:</button>
+<button onclick="agregar('4')">4</button>
+<button onclick="agregar('5')">5</button>
+<button onclick="agregar('6')">6</button>
+<button class="operador" onclick="operar('*')">✖</button>
+<button onclick="agregar('1')">1</button>
+<button onclick="agregar('2')">2</button>
+<button onclick="agregar('3')">3</button>
+<button onclick="agregar('0')">0</button>
+<button onclick="agregar('.')">.</button>
+<button class="igual" onclick="calcular()">=</button>
+<button class="operador" onclick="operar('+')">+</button>
+
+<!-- funciones -->
+<button class="funcion" onclick="raiz()">√</button>
+<button class="funcion" onclick="potencia()">x²</button>
+<button class="funcion" onclick="seno()">sin</button>
+<button class="funcion" onclick="cos()">cos</button>
+
+
+<button class="funcion" onclick="tangente()">tan</button>
+<button class="funcion" onclick="logaritmo()">log</button>
+<button class="clear" onclick="limpiar()">C</button>
+</div>
+</div>
+
+ <script src="calculadora.js"></script> //aqui debeir el nombre del js
+
+</body>
+</html>
+
+

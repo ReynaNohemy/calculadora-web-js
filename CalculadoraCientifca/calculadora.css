@@ -1,0 +1,70 @@
+ body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 300px;
+}
+
+#pantalla {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    color: #0f0;
+}
+
+
+
+
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #666;
+}
+
+.operador {
+    background: #ff9500;
+}
+
+.igual {
+    background: #28a745;
+}
+
+.clear {
+    background: #dc3545;
+}
+
+.funcion {
+    background: #007bff;
+}
