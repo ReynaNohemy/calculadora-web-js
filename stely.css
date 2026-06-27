@@ -1,0 +1,146 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74b9ff, #0984e3);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caja blanca central */
+.contenedor {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    color: #2d3436;
+    margin-bottom: 30px;
+}
+
+/* Campo de texto */
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0984e3;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+button:hover {
+    background: #0773c7;
+}
+
+/* Área de resultados */
+#resultado {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Tarjeta del clima */
+.clima-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #0984e3;
+}
+
+.clima-card h2 {
+    color: #2d3436;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+/* Icono del clima grande */
+.icono-clima {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Temperatura grande */
+.temperatura {
+    font-size: 48px;
+    font-weight: bold;
+    color: #e17055;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Descripción */
+.descripcion {
+    text-align: center;
+    font-size: 18px;
+    color: #636e72;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+.detalles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.detalle {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.detalle .etiqueta {
+    font-size: 12px;
+    color: #636e72;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.detalle .valor {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0984e3;
+}
+
+/* Mensaje de error */
+.error {
+    background: #ff7675;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Mensaje de carga */
+.cargando {
+    color: #0984e3;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+
