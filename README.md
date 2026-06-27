@@ -8,6 +8,8 @@ DOM
 Responsive Design
 
 capturas de pantalla:
+
+
 <img width="536" height="529" alt="image" src="https://github.com/user-attachments/assets/db6258e0-c2f1-4a0d-98af-9da6b756475d" />
 
 Instrucciones de uso:
